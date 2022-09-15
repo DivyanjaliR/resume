@@ -1,0 +1,45 @@
+[
+    {
+        "fullName": "Divyanjali R", 
+        "address": "No 205/2 I.A.L Colony, Trimulgherry, Secunderabad", 
+        "email": "divyanjali@gmail.com", 
+        "github":"gihub.com/DivyanjaliR",
+        "mobileNo":"9759632587", 
+        "description": "A meticulous and organized individual seeking an Entry-level position in the field of Project Management. Skilled at developing reports, analyzing data, and identifying solutions. Strong ability to handle complex projects. Innovative, creative, and willing to contribute ideas and learn new things.", 
+        "EducProfile":[
+                { "title": "School",
+                  "name":"St.Ann's High School", 
+                  "description":"Scores 9 GPA"
+                }, 
+                { "title": "Intermediate",
+                  "name":"Gowtham Junior College", 
+                  "description":"Scored 9 GPA"
+                },
+                {"title": "Btech",
+                "name": "CMR Engineering College",
+                "description": "Scored 9 GPA"
+
+                }
+        ],
+        "Work":[
+            { "title": "Junior Developer",
+              "name":"Virtusa", 
+              "description":"Worked as a full stack developer and developed food application project"
+            }, 
+            { "title": "Associate Software Engineer",
+              "name":"Wipro", 
+              "description":"Worked as Associate Software Engineer for 5 months"
+            }
+    ],
+        "personalProjects": [
+            {   "name": "Food Application", 
+                "description":"Food Application is a full stack project where the user can login to hus account and order the food that he likes. User can select multiple items and add the items to the cart and later order the food from the cart, by processing the payment his items gets orderd"
+            }, 
+            {   "name": "Covid Prediction ", 
+                "description":"Covid Prediction is an AI/ML-based application where the user will upload all his medical records and the GANN algorithm will process and predict if the user is covid positive or not and later the application will also diagnose the user"
+            }
+        ],
+        "languages": ["c","c++","Java", "Python", "HTML CSS", "Javascript"],
+        "interest": ["Sports", "Listening to Music", "Reading","Surfing the Internet","rubix cube"]        
+    }
+]

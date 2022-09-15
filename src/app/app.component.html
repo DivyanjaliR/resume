@@ -1,0 +1,73 @@
+<table width="700px" height="200px" align="center">
+  <tr>
+    <td width="150px" bgcolor="#800000" style="color: rgb(253, 254, 254); padding: 10px;">
+      <img src="" style="border-radius: 50%;" alt=""> 
+      <h1>Personal Details</h1> <hr>
+      <p><b>Name:</b>
+        {{resume.fullName}} <br><br> 
+        
+        <b>Address:</b> <br>
+        {{resume.address}}<br>
+        Telangana-500015 <br><br>
+
+        <b>Email Address:</b> <br>
+        {{resume.email}}<br><br>
+
+        <b>Github: </b><br>
+        {{resume.github}} 
+      </p> 
+      <h2>Interest</h2><hr>
+      <p>{{resume.interest[0]}}</p>
+      <p>{{resume.interest[1]}}</p>
+      <p>{{resume.interest[2]}}</p> 
+      <p>{{resume.interest[3]}}</p> 
+      <p>{{resume.interest[4]}}</p> 
+
+      <h2>Languages</h2>
+      <p>{{resume.languages[0]}}</p>
+      <p>{{resume.languages[1]}}</p> 
+      <p>{{resume.languages[2]}}</p> 
+      <p>{{resume.languages[3]}}</p>
+      <p>{{resume.languages[4]}}</p>
+      <p>{{resume.languages[5]}}</p>
+    </td>
+    <td width="450px" bgcolor="#a9a9a9" style="padding: 10px;" >
+      <h1>{{resume.fullName}}</h1><hr>
+      <p>{{resume.description}}</p> 
+      <h2>Education </h2><hr>
+      <h3>{{resume.EducProfile[0].title}}</h3> 
+      <h5><h3>{{resume.EducProfile[0].name}}</h3> 
+      </h5>
+      <p>{{resume.EducProfile[0].description}}</p>
+      
+      <h3>{{resume.EducProfile[1].title}}</h3> 
+      <h5><h3>{{resume.EducProfile[1].name}}</h3> 
+      </h5>
+      <p>{{resume.EducProfile[1].description}}</p>
+
+      <h3>{{resume.EducProfile[2].title}}</h3> 
+      <h5><h3>{{resume.EducProfile[2].name}}</h3> 
+      </h5>
+      <p>{{resume.EducProfile[2].description}}</p>
+
+      <h2>Work Experiance </h2><hr>
+      <h3>{{resume.Work[0].title}}</h3> 
+      <h5><h3>{{resume.Work[0].name}}</h3> 
+      </h5>
+      <p>{{resume.Work[0].description}}</p>
+      
+      <h3>{{resume.Work[1].title}}</h3> 
+      <h5><h3>{{resume.Work[1].name}}</h3> 
+      </h5>
+      <p>{{resume.Work[1].description}}</p>
+
+      <h2>Projects</h2><hr>
+      <h4>{{resume.personalProjects[0].name}}</h4>
+      <p>{{resume.personalProjects[0].description}}</p>
+      <h4>{{resume.personalProjects[1].name}}</h4>
+      <p>{{resume.personalProjects[1].description}}</p>
+
+
+    </td>
+  </tr>
+</table>
